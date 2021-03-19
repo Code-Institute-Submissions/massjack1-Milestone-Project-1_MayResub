@@ -16,10 +16,21 @@
 * ### As a frequent user, the contact part is the easiest way to reach out to me.
 
 ## Wireframes 
-* Web Page Version
-
-* Tablet Version 
-
-* Mobile Version
+You can view the different Sizes of the idea here 
 
 ## Features
+
+
+## Technologies Used
+
+## Resources 
+Link to a Tutorial which helped me create the hero image without any issues:
+https://www.developerdrive.com/full-page-hero-image-html-css/
+
+Link to a Tutorial which helped me create the Skills Bar:
+https://www.youtube.com/watch?v=0198ceyTVtg
+
+## Testing
+
+## Deployment
+
