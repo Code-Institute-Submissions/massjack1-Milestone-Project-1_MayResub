@@ -1,236 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML,CSS,JavaScript">
-    <meta name="author" content="John Doe">
+    <meta name="description" content="A website about myself and my skills">
+    <meta name="keywords" content="CV,Skills,HTML,CSS,JavaScript">
+    <meta name="author" content="Mass Jack">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Mass Jack Portfolio</title>
 </head>
-
-<body>
-    <!----------------------- Navigation Bar ----------------------->
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50" tabindex="0">
+    <!----Navigation Bar---->
     <header>
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">MassJack</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-                aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">MassJack</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-
-           
-            <div class="collapse navbar-collapse show text-right" id="navbarSupportedContent1">
-                <ul class="navbar-nav ml-auto">
-                    <li>
-                        <a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Skills">Skills</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#About">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Contact">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-            
-        </nav>
-
-    </header>
-    <!----------------------- Landing Page/Home --------------------->
-    <main>
-        <!----------Some Codesnippets from a tutorial that assisted me, Included in the ReadMe.md file---------->
-        <section class="hero">
-            <div class="row">
-                <div class="hero-content">
-                <div id="Home">
-                    <h1 class="hero-title">Hello, I am Mass Jack</h1>
-
-                    <h2 class="hero-subtitle">I am a Full Stack Developer based in Stockholm Sweden. I have a creative
-                        vision & a love for learning.</h2>
-
-                        <a href="#About">
-
-                    <button type="button" class="hero-button">About</button>
-                    </a>
-
-
-                </div>
-            </div>
-            </div>
-        </section>
-        <!-----------------------Skills Section----------------------->
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <h1 id="Skills" class="uppercase">Skills</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    <div class="skills-bar">
-                        <div class="bar">
-                            <div class="info">
-                                <span>HTML</span>
-                            </div>
-                            <div class="progress-line html"><span></span></div>
-                        </div>
-                        <div class="bar">
-                            <div class="info">
-                                <span>CSS</span>
-                            </div>
-                            <div class="progress-line css"><span></span></div>
-                        </div>
-                        <div class="bar">
-                            <div class="info">
-                                <span>Javascript</span>
-                            </div>
-                            <div class="progress-line javascript"><span></span></div>
-                        </div>
-                        <div class="bar">
-                            <div class="info">
-                                <span>Bootstrap</span>
-                            </div>
-                            <div class="progress-line bootstrap"><span></span></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2"></div>
-            </div>
-        </section>
-
-        
-        <!-----------------------About----------------------->
-
-        <section class="container-fluid">
-            <div class="row about">
-                <div class="col-12">
-                <h1 id="About" class="uppercase mb-5">About</h1>
-                <p>
-                    The name is Mass Jack. I am a Full Stack Developer in Stockholm Sweden. I specialize in<br>
-                    different areas in both Front End but also Back End Development. I am an advocate for <br>
-                    Challenges & Change. Whether it's solving riddles or helping out with inspiration or so.
-
-                </p>
-
-                <p>
-                    The main Goal is to find the best fit to collaborate with. It could be anyone<br>
-                    from a Company looking for someone to hire to a student looking for inspiration.
-                </p>
-
-                <p>
-                    My Work Experience has sort of paved the way to learn more about Software Development.
-                </p>
-
-                <p>
-                    <em><strong>"We Connect the dots with the right spots. But most importantly, We <br>look for needs
-                            instead of ideas."</strong></em>
-                </p>
-
-                </div>
-            </div>
-        </section>
-
-        <!-----------------------Contact----------------------->
-
-        <section>
-            <h1 id="Contact" class="uppercase mb-5">Contact</h1>
-           
-
-            <form>
-                <div class="container">
-                    <form action="action_page.php">
-                        <div class="col-25">
-
-                            <label for="fname">First Name</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="fname" name="firstname" placeholder="Your name or Company Name..">
-                        </div>
-
-                        <div class="col-25">
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="email" name="email" placeholder="Your Email..">
-                        </div>
-                        <div class="col-25">
-                            <label for="phonenumber">Phone Number</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="phonenumber" name="phonenumber" placeholder="Your Phone Number..">
-                        </div>
-                        <div class="col-25">
-                            <label for="subject">Question</label>
-                        </div>
-                        <div class="col-75">
-                            <textarea id="subject" name="subject" placeholder="Feel free to ask anything.."
-                                style="height:100px"></textarea>
-                        </div>
-                        
-
-                        <input type="submit" value="Submit">
-
-                    </form>
-                </div>
-           
-
-
-            </form>
-
-
-        </section>
-
-        <!-----------------------Footer----------------------->
-
-        <footer class="container-fluid bg bg-dark">
-            <div class="row">
-                <div class="col-8 col-md-6 mr-auto ml-auto my-footer">
-                    
-                    
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a href="https://github.com/massjack1/Milestone-Project-1" target="_blank"
-                                aria-label="Link to my Github Page (opens in a new tab)">
-                                <i class="fab fa-github" aria-hidden="true"></i>
-                            </a>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/massjack" target="_blank"
-                                aria-label="Link to my Linkedin Page (opens in a new tab)">
-                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/massjackdesign/" target="_blank"
-                                aria-label="Link to my Instagram Page (opens in a new tab)">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="text-center p-3">
-                © 2020 Copyright
+        </nav>
+    </header>
+    <!----Landing Page/Home---->
+    <main>
+        <!----------Some Codesnippets from a tutorial that assisted me, Included in the ReadMe.md file---------->
+        <section id="home" class="text-center">
+            <div class="container-fluid hero">
+                <div class="row">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Hello, I'm Mass Jack</h1>
+                        <h2 class="hero-subtitle">I am a Full Stack Developer based in Stockholm Sweden. I have a
+                            creative
+                            vision & a love for learning.</h2>
+                        <a href="#about"><button type="button" class="hero-button">About</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------------------Skills Section----------------------->
+        <section class="skills">
+            <div class="container-fluid">
+                <h1 id="skills" class="uppercase">Skills</h1>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <div class="skills-bar">
+                            <div class="bar">
+                                <div class="info">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="progress-line html"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="progress-line css"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>Javascript</span>
+                                </div>
+                                <div class="progress-line javascript"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>Bootstrap</span>
+                                </div>
+                                <div class="progress-line bootstrap"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+        </section>
+        <!-----------------------About----------------------->
+        <section class="about text-center">
+            <div class="container-fluid">
+                <h1 id="about" class="uppercase mb-5">About</h1>
+                <div class="row about">
+                    <div class="col-12">
+                        <p>
+                            The name is Mass Jack. I am a Full Stack Developer in Stockholm Sweden. I specialize in<br>
+                            different areas in both Front End but also Back End Development. I am an advocate for <br>
+                            Challenges & Change. Whether it's solving riddles or helping out with inspiration or so.
+
+                        </p>
+                        <p>
+                            The main Goal is to find the best fit to collaborate with. It could be anyone<br>
+                            from a Company looking for someone to hire to a student looking for inspiration.
+                        </p>
+                        <p>
+                            My Work Experience has sort of paved the way to learn more about Software Development.
+                        </p>
+                        <p>
+                            <em><strong>"We Connect the dots with the right spots. But most importantly, We <br>look for
+                                    needs
+                                    instead of ideas."</strong></em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------------------Contact----------------------->
+        <section class="contact">
+            <div class="container">
+                <h1 id="contact" class="uppercase mb-5">Contact</h1>
+                <form action="action_page.php">
+                    <div class="col-25">
+                        <label for="firstname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="firstname" name="firstname" placeholder="Your name or Company Name..">
+                    </div>
+
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="email" name="email" placeholder="Your Email..">
+                    </div>
+                    <div class="col-25">
+                        <label for="phonenumber">Phone Number</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="phonenumber" name="phonenumber" placeholder="Your Phone Number..">
+                    </div>
+                    <div class="col-25">
+                        <label for="subject">Question</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Feel free to ask anything.."
+                            style="height:100px"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        <!-----------------------Footer----------------------->
+        <footer class="footer bg bg-dark">
+            <div class="container-fluid">
+                <div class="row justify-content-md-center">
+                    <div class="mr-auto ml-auto my-footer">
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/massjack1/Milestone-Project-1" target="_blank"
+                                    aria-label="Link to my Github Page (opens in a new tab)">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/massjack" target="_blank"
+                                    aria-label="Link to my Linkedin Page (opens in a new tab)">
+                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/massjackdesign/" target="_blank"
+                                    aria-label="Link to my Instagram Page (opens in a new tab)">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center p-3">
+                    © 2020 Copyright
+                </div>
             </div>
         </footer>
     </main>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
-
 </html>
