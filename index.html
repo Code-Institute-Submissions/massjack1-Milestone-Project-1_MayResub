@@ -16,7 +16,7 @@
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50" tabindex="0">
     <!----Navigation Bar---->
     <header>
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top 
             <div class="container-fluid">
                 <a class="navbar-brand" href="#home">MassJack</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -131,49 +131,25 @@
                     <div class="mb-3">
                         <label for="firstname" class="form-label">First Name</label>
                         <input type="text" class="form-control" id="firstname" name="firstname" aria-describedby="firstnameHelp" required>
-                        <div id="firstnameHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div id="firstnameHelp" class="form-text">We'll never share your name with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phonenumber" class="form-label">Your Phone Number</label>
+                        <input type="phonenumber" class="form-control" id="phonenumber" name="phonenumber" aria-describedby="phonenumberHelp" required>
+                        <div id="phonenumberHelp" class="form-text">We'll never share your phone number with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
+                    <div class="mb-3">
+                        <label for="textarea" class="form-label">Question</label>
+                        <input type="textarea" class="form-control" id="textarea" name="textarea" aria-describedby="textareaHelp" required>
+                        
+                    </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
-
-                <!-- <form action="action_page.php">
-                    <div class="mb-3">
-                        <label for="firstname" class="form-label">First Name</label>
-                        <input type="email" class="form-control" name="firstname" id="firstname" placeholder="Your name or Company Name.">
-                    </div>
-
-                    <div class="col-25">
-                        <label for="firstname">First Name</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="firstname" name="firstname" placeholder="Your name or Company Name..">
-                    </div>
-
-                    <div class="col-25">
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="email" name="email" placeholder="Your Email..">
-                    </div>
-                    <div class="col-25">
-                        <label for="phonenumber">Phone Number</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="phonenumber" name="phonenumber" placeholder="Your Phone Number..">
-                    </div>
-                    <div class="col-25">
-                        <label for="subject">Question</label>
-                    </div>
-                    <div class="col-75">
-                        <textarea id="subject" name="subject" row="3" placeholder="Feel free to ask anything.."></textarea>
-                    </div>
-                    <input type="submit" value="Submit">
-                </form> -->
             </div>
         </section>
         <!-----------------------Footer----------------------->
@@ -205,7 +181,7 @@
                     </div>
                 </div>
                 <div class="text-center p-3">
-                    © 2020 Copyright
+                    © 2021 Copyright
                 </div>
             </div>
         </footer>
