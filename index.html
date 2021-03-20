@@ -127,7 +127,26 @@
         <section class="contact">
             <div class="container">
                 <h1 id="contact" class="uppercase mb-5">Contact</h1>
-                <form action="action_page.php">
+                <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+                    <div class="mb-3">
+                        <label for="firstname" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstname" name="firstname" aria-describedby="firstnameHelp" required>
+                        <div id="firstnameHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+                <!-- <form action="action_page.php">
+                    <div class="mb-3">
+                        <label for="firstname" class="form-label">First Name</label>
+                        <input type="email" class="form-control" name="firstname" id="firstname" placeholder="Your name or Company Name.">
+                    </div>
+
                     <div class="col-25">
                         <label for="firstname">First Name</label>
                     </div>
@@ -151,11 +170,10 @@
                         <label for="subject">Question</label>
                     </div>
                     <div class="col-75">
-                        <textarea id="subject" name="subject" placeholder="Feel free to ask anything.."
-                            style="height:100px"></textarea>
+                        <textarea id="subject" name="subject" row="3" placeholder="Feel free to ask anything.."></textarea>
                     </div>
                     <input type="submit" value="Submit">
-                </form>
+                </form> -->
             </div>
         </section>
         <!-----------------------Footer----------------------->
