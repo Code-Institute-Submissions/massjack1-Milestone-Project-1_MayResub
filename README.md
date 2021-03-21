@@ -15,21 +15,53 @@
 *  As a frequent user, the contact part is the easiest way to reach out to me.
 
 ## Wireframes 
-You can view the different wireframes for each platform here  
+* Link to the desktop version can be found here  ![Desktop Version](/images/web.png) 
+* Link to the tablet version can be found here  ![Tablet Version](/images/tablet.png)
+* Link to the mobile version can be found here  ![Mobile Version](/images/mobile.png)
 
 ## Features
-
+* Responsive on all devices
 
 ## Technologies Used
 
-## Resources 
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+[CSS](https://en.wikipedia.org/wiki/CSS#CSS_3)
+
+## Frameworks, Libraries & Programs Used
+1. [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+2. [Font Awesome](https://fonts.google.com/)
+3. [Balsamiq](https://balsamiq.com/)
+4. [Google Fonts](https://fonts.google.com/)
+5. [Git](https://git-scm.com/)
+6. [Github](https://github.com/)
+7. [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
+
+## Credits
+### Content
 Link to a Tutorial which helped me create the hero image without any issues:
 https://www.developerdrive.com/full-page-hero-image-html-css/
 
 Link to a Tutorial which helped me create the Skills Bar:
 https://www.youtube.com/watch?v=0198ceyTVtg
 
+### Media
+
 ## Testing
+* W3C Markup Validatior
+
+* W3C CSS Validator
+
+## Testing User Stories
+* As a frequent user I want to see if there is any newly added information such as Upcoming Projects, interesting challenges or any new files such as a Bug Tracker.
+
+* As a frequent user I want to see if the skill have been updated for a possible collaboration.
+
+## More Testing
+* The website has been tested on Firefox, Chrome & Safari.
+
+* The website was also viewed and tested on different devices such as iPhone X, iPad, iPad Pro & Desktop.
 
 ## Deployment
+
+
 
