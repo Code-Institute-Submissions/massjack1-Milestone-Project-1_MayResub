@@ -1,6 +1,5 @@
 # Mass Jack's Portfolio Website
- This website is a collection of my ideas & an insight into what I do. My background, 
- My Projects, My goals & My Vision.
+ This website is a collection of my ideas & an insight into what I do. My background, My goals & My Vision.
 
 
 
@@ -16,7 +15,7 @@
 *  As a frequent user, the contact part is the easiest way to reach out to me.
 
 ## Wireframes 
-You can view the different Sizes of the idea here 
+You can view the different wireframes for each platform here  
 
 ## Features
 
