@@ -28,7 +28,7 @@ navbar-toggler {
     cursor: pointer;
 }
 
-/* Helpful Recourses included in the ReadMe.md file */
+/* Credit: code for Hero page styling taken from: https://www.developerdrive.com/full-page-hero-image-html-css/ with a slight edit to fit the project needs */
 
 /* Home Section */
 
@@ -97,7 +97,7 @@ navbar-toggler {
 }
 
 /* Skills Section */
-
+/* Credit: code for Skills Section styling taken from: https://dev.to/codingnepal/animated-skills-bar-ui-design-using-only-html-css-903 with a slight edit to fit the project needs */
 .uppercase {
  text-transform:uppercase;
  
@@ -113,7 +113,6 @@ section {
 
 .skills-bar{
     margin: 0 auto;
-    /* width: 600px; */
     background: #fff;
     border-radius: 10px;
     padding: 25px 30px;
@@ -265,7 +264,7 @@ h1~p{
 
 
 /* Contact */
-
+/* Credit: code for Contact Form styling taken from: https://www.w3schools.com/howto/howto_css_contact_form.asp with a slight edit to fit the project needs */
 input[type=text], select, textarea {
   width: 100%; 
   padding: 15px;  
@@ -302,7 +301,7 @@ input[type=submit]:hover {
 }
 
 /* Footer */
-
+/* Credit: code for footer transition styling taken from: https://thequig-lebowski.github.io/MS1_CodeInstitute/#contact with a slight edit to fit the project needs */
 footer {
     padding: 10px;
     

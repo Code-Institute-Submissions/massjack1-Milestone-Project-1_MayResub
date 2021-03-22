@@ -15,9 +15,9 @@
 *  As a frequent user, the contact part is the easiest way to reach out to me.
 
 ## Wireframes 
-* Link to the desktop version can be found here  ![Desktop Version](/images/web.png) 
-* Link to the tablet version can be found here  ![Tablet Version](/images/tablet.png)
-* Link to the mobile version can be found here  ![Mobile Version](/images/mobile.png)
+* Desktop version can be found [here](/images/web.png) 
+* Tablet version can be found [here](/images/tablet.png)
+* Mobile version can be found [here](/images/mobile.png)
 
 ## Features
 * Responsive on all devices
@@ -38,13 +38,24 @@
 
 ## Credits
 ### Content
+Link to a file that helped me fix the Scrollspy for the navigation bar:
+https://getbootstrap.com/docs/5.0/components/scrollspy/
+
+File that helped create the navigation bar: https://getbootstrap.com/docs/5.0/components/navbar/
+
 Link to a Tutorial which helped me create the hero image without any issues:
 https://www.developerdrive.com/full-page-hero-image-html-css/
 
 Link to a Tutorial which helped me create the Skills Bar:
 https://www.youtube.com/watch?v=0198ceyTVtg
 
+Link to a Tutorial that helped me create the Contact form: https://www.w3schools.com/howto/howto_css_contact_form.asp
+
+Footer inspiration from: https://getbootstrap.com/docs/5.0/examples/cover/
+I also got some inspiration from another students work:https://thequig-lebowski.github.io/MS1_CodeInstitute/#contact for the footer.
+
 ### Media
+Hero Image background taken from [Unsplash](https://unsplash.com/)
 
 ## Testing
 * W3C Markup Validatior
@@ -60,6 +71,10 @@ https://www.youtube.com/watch?v=0198ceyTVtg
 * The website has been tested on Firefox, Chrome & Safari.
 
 * The website was also viewed and tested on different devices such as iPhone X, iPad, iPad Pro & Desktop.
+
+## Bug Discovered
+
+
 
 ## Deployment
 
