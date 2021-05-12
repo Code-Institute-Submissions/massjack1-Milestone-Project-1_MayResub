@@ -297,6 +297,20 @@ textarea{
  display: block;
  width: 100%;
 }
+.btn-primary {
+    padding: 12px 30px;
+    font-size: 17px;
+    font-style: "Poppins", sans-serif;
+    text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
+    border-radius: 20px;
+    background-color: #EB6534;
+    border: none;
+    display: inline-block;
+    box-shadow: 0 0.02rem 0.5rem rgb(0 0 0 / 50%);   
+}
+.btn-primary:hover {
+    background-color: #eb65349a;
+}
 /* Footer */
 /* Credit: code for footer transition styling taken from: https://thequig-lebowski.github.io/MS1_CodeInstitute/#contact with a slight edit to fit the project needs */
 footer {
