@@ -248,7 +248,7 @@ section {
 
 h1~p{
     
-    font-size: 22px;
+    font-size: 30px;
     width: 100%;
     margin: 4em;
     text-align: center;
@@ -259,6 +259,7 @@ h1~p{
 
 .about p {
     margin:auto;
+    font-size: 30px;
 
 }
 
