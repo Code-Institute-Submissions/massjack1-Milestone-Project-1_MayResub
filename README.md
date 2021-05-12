@@ -47,7 +47,7 @@ https://www.developerdrive.com/full-page-hero-image-html-css/
 * Link to a Tutorial which helped me create the Skills Bar:
 https://www.youtube.com/watch?v=0198ceyTVtg
 
-* Link to a Tutorial that helped me create the Contact form: https://www.w3schools.com/howto/howto_css_contact_form.asp
+* Inspiration for the Contact form: https://colorlib.com/wp/template/contact-form-v9/
 
 * Footer inspiration from: https://getbootstrap.com/docs/5.0/examples/cover/
 I also got some inspiration from another students work:https://thequig-lebowski.github.io/MS1_CodeInstitute/#contact for the footer.
