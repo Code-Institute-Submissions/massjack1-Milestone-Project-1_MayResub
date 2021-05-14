@@ -85,6 +85,7 @@ navbar-toggler {
     padding: 15px 27px;
     border-radius: 12px;
     display: inline-block;
+    text-decoration: none;
     border:none;
     color: #fff;
 }
