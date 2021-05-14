@@ -65,42 +65,38 @@ navbar-toggler {
 }
 
 .hero-title {
-    font-size:42px;
+    font-size:85px;
     margin-bottom: 0;
     font-weight: 600;
     
 }
 
 .hero-subtitle {
+    padding: 120px;
     font-size: 20px;
     margin-top:1rem;
     font-weight:200;
     
 }
 
-.hero-button {
-    background-color: #28527a;
-    color:white;
-    border:1px ;
-    margin-top: 5rem;
-    padding: 0.9375rem 1.875rem;
-    font-family: "Poppins",sans-serif;
-    font-size: 1.125rem;
-    font-weight: 200;
-    cursor: pointer;
+.btn-hero{
+    background-color: #EB6534;
+    font-size: 17px;
+    padding: 15px 27px;
+    border-radius: 12px;
+    display: inline-block;
+    border:none;
+    color: #fff;
 }
 
-.hero-button:hover {
-    background-color: #3743cb;
-    border: 1px solid #28527a;
-
+.btn-hero:hover {
+    background-color: #eb65349a;
 }
 
 /* Skills Section */
 /* Credit: code for Skills Section styling taken from: https://dev.to/codingnepal/animated-skills-bar-ui-design-using-only-html-css-903 with a slight edit to fit the project needs */
-.uppercase {
+h1.uppercase {
  text-transform:uppercase;
- 
 }
 
 section {
