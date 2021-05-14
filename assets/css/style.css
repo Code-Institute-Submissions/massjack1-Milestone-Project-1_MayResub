@@ -159,7 +159,7 @@ section {
     border: 7px solid transparent;
     border-bottom-width: 0px;
     border-right-width: 0px;
-    border-top-color: #000;
+    border-top-color: rgb(0, 0, 0);
     opacity: 0;
     animation: showText2 0.5s 1.5s linear forwards;
 }
@@ -312,9 +312,18 @@ section h1 {
     h2.hero-subtitle{
         padding: 10px;
     }
-    h1.uppercase{
-        padding-bottom: 70px; 
+    .hero::before{
+        width: 100%;
     }
+    h1.uppercase{
+        padding: 80px; 
+    }
+    section.about{
+        padding: 5px;
+    }
+    .bar .progress-line span::after{
+        background: #eb6534bf; 
+     }
 }
 
 
