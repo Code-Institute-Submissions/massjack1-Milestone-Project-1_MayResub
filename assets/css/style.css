@@ -1,14 +1,11 @@
 /*-----fonts-----*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
-
-
 *{
     margin:0;
     padding:0;
     
 }
-
 html,body {
     display:grid;
     height: 100vh;
@@ -16,22 +13,15 @@ html,body {
     background: #D1BE9C;
     width: 100%;   
 }
-
 /*Navigation Bar */
-
-
 .fa-1x {
     font-size: 1.5rem;
 }
-
 navbar-toggler {
     cursor: pointer;
 }
-
 /* Credit: code for Hero page styling taken from: https://www.developerdrive.com/full-page-hero-image-html-css/ with a slight edit to fit the project needs */
-
 /* Home Section */
-
 .hero {
     position: relative;
     width:100vw;
@@ -40,7 +30,6 @@ navbar-toggler {
     display:flex;
     justify-content: center;
 }
-
 .hero::before {
     content: "";
     position: absolute;
@@ -55,7 +44,6 @@ navbar-toggler {
     filter: brightness(60%);
     background-attachment: fixed;
 }
-
 .hero-content {
     position: relative;
     font-family:"Poppins", sans-serif;
@@ -63,47 +51,40 @@ navbar-toggler {
     text-align: center;
     margin: 0.625rem;
 }
-
 .hero-title {
     font-size:85px;
     margin-bottom: 0;
     font-weight: 600;
     
 }
-
 .hero-subtitle {
     padding: 120px;
     font-size: 20px;
     margin-top:1rem;
-    font-weight:200;
-    
+    font-weight:200;  
 }
-
 .btn-hero{
-    background-color: #EB6534;
+    padding: 13px 27px;
     font-size: 17px;
-    padding: 15px 27px;
     border-radius: 12px;
     display: inline-block;
     text-decoration: none;
+    background-color: #EB6534;
     border:none;
     color: #fff;
 }
-
 .btn-hero:hover {
     background-color: #eb65349a;
+    color: #fff;
 }
-
 /* Skills Section */
 /* Credit: code for Skills Section styling taken from: https://dev.to/codingnepal/animated-skills-bar-ui-design-using-only-html-css-903 with a slight edit to fit the project needs */
 h1.uppercase {
  text-transform:uppercase;
 }
-
 section {
     min-height: 100vh;
 }
-
 .skills-bar{
     margin: 0 auto;
     background: #fff;
@@ -111,18 +92,15 @@ section {
     padding: 25px 30px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
-
 .skills-bar .bar {
     margin: 20px 0;
 }
-
 .skills-bar .bar:first-child {
     margin-top: 0px;
 }
 .skills-bar .bar .info{
     margin-bottom: 5px;
 }
-
 .skills-bar .bar .info span {
     font-size:17px;
     font-weight: 500;
@@ -130,13 +108,11 @@ section {
     animation: showText 0.5s 1s linear forwards;
     
 }
-
 @keyframes showText {
     100% {
         opacity: 1;
     }
 }
-
 .skills-bar .bar .progress-line {
     position: relative;
     height: 10px;
@@ -149,7 +125,6 @@ section {
                       0px 1px rgba(255,255,255,0.8);
     animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;                  
 }
-
 .bar .progress-line span {
     height: 100%;
     width: 80%;
@@ -160,29 +135,23 @@ section {
     transform-origin: left;
     animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 } 
-
 @keyframes animate {
     100%{
         transform: scaleX(1);
     }
 }
-
 .progress-line.html span {
     width: 80%;
 }
-
 .progress-line.css span {
     width: 60%;
 }
-
 .progress-line.javascript span {
     width: 30%;
 }
-
 .progress-line.bootstrap span {
     width: 55%;
 }
-
 .bar .progress-line span::before {
     position: absolute;
     content: "";
@@ -197,7 +166,6 @@ section {
     opacity: 0;
     animation: showText2 0.5s 1.5s linear forwards;
 }
-
 .bar .progress-line span::after {
     position: absolute;
     right:0;
@@ -212,31 +180,23 @@ section {
     animation: showText2 0.5s 1.5s linear forwards;
     
 }
-
 @keyframes showText2 {
     100% {
         opacity: 1;
     }
 }
-
 .progress-line.html span::after {
     content: "80%";
 }
-
 .progress-line.css span::after {
     content: "60%";
 }
-
 .progress-line.javascript span::after {
     content: "30%";
 }
-
 .progress-line.bootstrap span::after {
     content: "55%";
 }
-
-
-
 /* About */
 section.about {
     padding: 300px 0;
@@ -251,17 +211,13 @@ h1~p{
     font-family:"Poppins", sans-serif;
     text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
-
 .about p {
     margin:auto;
     font-size: 25px;
     padding: 11px 0;
     color: #ffb331;
     text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
-
 }
-
-
 /* Contact */
 section.contact {
     padding: 300px 0;
@@ -313,17 +269,12 @@ textarea{
 /* Footer */
 /* Credit: code for footer transition styling taken from: https://thequig-lebowski.github.io/MS1_CodeInstitute/#contact with a slight edit to fit the project needs */
 footer {
-    padding: 10px;
-    
-    
+    padding: 10px;   
 }
-
 .my-footer {
     text-align: center;
-    padding: 15px;
-    
+    padding: 15px;   
 }
-
 .social-links li a i {
     padding: 12px 0;
     font-size: 2rem;
@@ -333,17 +284,13 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 .social-links li a i:hover {
     color: rgb(247,211,125)
 }
-
 .text-center{
     color: #fff;
 }
-
 /* margins,etc*/
-
 h1,
 h2,
 h3,
@@ -352,7 +299,6 @@ h5,
 h6 {
     margin: 0;
 }
-
 section h1 {
    font-family: "Poppins",sans-serif;
    color: #fff;
@@ -360,7 +306,6 @@ section h1 {
    padding-top: 5rem;
    text-align: center;
 }
-
 /* Media Queries */
 
 @media screen and (min-width:860px) {
@@ -375,10 +320,7 @@ section h1 {
         width:100%;
         font-size:2.5rem;
     }
-
-
 }
-
 @media screen and (max-width: 1200px) {
     .navbar{
         width:100%;
@@ -386,65 +328,43 @@ section h1 {
         border-radius: 3px;
 
     }
-
-
 }
-
 @media screen and (max-width:950px) {
     h1.hero-title{
         margin: 16px 0px 0px;
         padding: 128px 0px 0px;
     }
 }
-
 @media screen and (max-width:950px) {
 
     .hero {
         width:100%;
-    }
-
-    
-    
+    }      
 }
-
 @media screen and (max-width:950px) {
     .about p {
         margin:0px 0px 16px;
         font-size: 16px;
 
     }
-
 }
 @media screen and (max-width:950px) {
 
     section .input {
         padding:6px 12px;
-    }
-
-    
-    
+    }    
 }
-
 @media screen and (max-width:950px) {
 
     input[type=text], select, textarea  {
         padding:10px 15px;
-    }
-
-    
-    
+    }      
 }
-
-
-
 @media screen and (max-width:950px) {
 
     footer.container-fluid.bg-dark {
         padding:10px 15px;
-    }
-
-    
-    
+    }   
 }
 
 
