@@ -304,67 +304,17 @@ section h1 {
    text-align: center;
 }
 
- Media Queries 
-@media screen and (max-width: 578px) {
+ /*Media Queries */
+@media only screen and (max-width: 768px){
     h1.hero-title{
-        font-size: 25px;
+        font-size: 40px;
     }
     h2.hero-subtitle{
-        font-size: 17px;
+        padding: 10px;
     }
-}
-
-@media screen and (min-width:860px) {
-    .navbar{
-        width:100%;
-        padding:10px 18px;
-        box-shadow: 0px 1px 1px rgba(0,0,0,0.15);
-        border-radius: 3px;
-        background: #D1BE9C;
+    h1.uppercase{
+        padding-bottom: 70px; 
     }
-    .hero-title, .hero-subtitle {
-        width:100%;
-        font-size:2.5rem;
-    }
-}
-
-*/
-@media screen and (max-width:950px) {
-    h1.hero-title{
-        margin: 16px 0px 0px;
-        padding: 128px 0px 0px;
-    }
-}
-@media screen and (max-width:950px) {
-
-    .hero {
-        width:100%;
-    }      
-}
-@media screen and (max-width:950px) {
-    .about p {
-        margin:0px 0px 16px;
-        font-size: 16px;
-
-    }
-}
-@media screen and (max-width:950px) {
-
-    section .input {
-        padding:6px 12px;
-    }    
-}
-@media screen and (max-width:950px) {
-
-    input[type=text], select, textarea  {
-        padding:10px 15px;
-    }      
-}
-@media screen and (max-width:950px) {
-
-    footer.container-fluid.bg-dark {
-        padding:10px 15px;
-    }   
 }
 
 
