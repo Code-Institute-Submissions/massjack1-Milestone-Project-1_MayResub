@@ -324,6 +324,22 @@ section h1 {
     .bar .progress-line span::after{
         background: #eb6534bf; 
      }
+     .navbar{
+        padding: 15px
+    }
+    .about p{
+        padding-bottom: 50px;
+    }
+    h1.form-title{
+        font-size: 35px;
+        padding: 50px;    
+    }
+}
+@media screen and (max-width:580px){
+    form div.container{
+        border-radius:0;
+        padding: 50px;
+    }
 }
 
 
