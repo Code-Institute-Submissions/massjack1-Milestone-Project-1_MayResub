@@ -63,11 +63,16 @@ After stumbling upon some errors I managed to solve the issues after some evalua
 ## Testing User Stories
 
 * __As a Manager/Developer/Student: I want to find the best way to learn who Mass Jack is and what he does.__
+
 When you first enter the website, you are met with a small section of information that you can use to identify & get an insight about Mass. 
 Whilst scrolling down to the About  section, you see more indepth descriptions about Mass Jack.
 
 * __As Manager/Developer/Student: I want to view the page for inspiration.__
+
 As you scroll through, you can see how everything has been simplified for better visual hierarchy & user experience.
+
+##### Lighthouse
+* Another great system I used was [Lighthouse](https://developers.google.com/web/tools/lighthouse). It helped me test the quality of the website. In the beginning of finishing up on fixing some technical issues, I tested to program in different areas to improve the usability & performance. As I continued to improve and fix issues I ended up with these [results](./assets/images/lighthouse.png).
 
 ## More Testing
 * The website has been tested on Firefox, Chrome & Safari.
