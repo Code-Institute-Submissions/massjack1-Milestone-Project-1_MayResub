@@ -11,6 +11,14 @@
 
 ## User Stories 
 
+* As a Manager I want to find the best way to contact Mass and navigate.
+
+* As a Manager I want to see if the qualities and skills match our standards.
+
+* As a Developer I want to view the Website for collaborations.
+
+* As a Student I want to view the Website for inspiration.
+
 ## Wireframes 
 * [Mobile Version](./assets/wireframes/mobile.png)
 * [Tablet Version](./assets/wireframes/tablet.png)
@@ -69,7 +77,11 @@ Whilst scrolling down to the About  section, you see more indepth descriptions a
 
 * __As Manager/Developer/Student: I want to view the page for inspiration.__
 
-As you scroll through, you can see how everything has been simplified for better visual hierarchy & user experience.
+As you scroll through, you can see how everything has been simplified for better visual hierarchy & user experience
+
+* __As Manager/Developer/Student: I want to find out where the social links are for more information.__
+
+I really thought about making the social links relevant for the user to understand that they are mainly for contact and information rather than the social credibility.
 
 ##### Lighthouse
 * Another great system I used was [Lighthouse](https://developers.google.com/web/tools/lighthouse). It helped me test the quality of the website. In the beginning of finishing up on fixing some technical issues, I tested to program in different areas to improve the usability & performance. As I continued to improve and fix issues I ended up with these [results](./assets/images/lighthouse.png).
