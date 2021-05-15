@@ -15,10 +15,10 @@
 *  As a frequent user, the contact part is the easiest way to reach out to me.
 
 ## Wireframes 
-[Mobile Version](./assets/wireframes/mobile.png)
-[Tablet Version](./assets/wireframes/tablet.png)
-[Web Version](./assets/wireframes/web.png)
-[Responsive Style](./assets/wireframes/responsive.png)
+* [Mobile Version](./assets/wireframes/mobile.png)
+* [Tablet Version](./assets/wireframes/tablet.png)
+* [Web Version](./assets/wireframes/web.png)
+* [Responsive Style](./assets/wireframes/responsive.png)
 
 
 ## Features
