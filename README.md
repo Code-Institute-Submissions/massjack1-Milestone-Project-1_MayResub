@@ -57,10 +57,9 @@ I also got some inspiration from another students work:https://thequig-lebowski.
 Hero Image background taken from [Unsplash](https://unsplash.com/)
 
 ## Testing
-* W3C Markup Validator
+* [W3C Markup Validation Service](https://validator.w3.org/) & [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to test the validity of the project website.
 
-* W3C CSS Validator
-
+After stumbling upon some errors I managed to solve the issues after some evaluation. Through the Chrome Dev Tools I used my ability to test different ways to solve the issues.
 ## Testing User Stories
 
 * __As a Manager/Developer/Student: I want to find the best way to learn who Mass Jack is and what he does.__
