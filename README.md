@@ -62,9 +62,13 @@ Hero Image background taken from [Unsplash](https://unsplash.com/)
 * W3C CSS Validator
 
 ## Testing User Stories
-* As a frequent user I want to see if there is any newly added information such as Upcoming Projects, interesting challenges or any new files such as a Bug Tracker.
 
-* As a frequent user I want to see if the skill have been updated for a possible collaboration.
+* __As a Manager/Developer/Student: I want to find the best way to learn who Mass Jack is and what he does.__
+When you first enter the website, you are met with a small section of information that you can use to identify & get an insight about Mass. 
+Whilst scrolling down to the About  section, you see more indepth descriptions about Mass Jack.
+
+* __As Manager/Developer/Student: I want to view the page for inspiration.__
+As you scroll through, you can see how everything has been simplified for better visual hierarchy & user experience.
 
 ## More Testing
 * The website has been tested on Firefox, Chrome & Safari.
