@@ -15,7 +15,11 @@
 *  As a frequent user, the contact part is the easiest way to reach out to me.
 
 ## Wireframes 
-The Wireframes can be found inside the Assets folder.
+[Mobile Version](./assets/wireframes/mobile.png)
+[Tablet Version](./assets/wireframes/tablet.png)
+[Web Version](./assets/wireframes/web.png)
+[Responsive Style](./assets/wireframes/responsive.png)
+
 
 ## Features
 * Responsive on all devices
